@@ -27,9 +27,13 @@ namespace CalculadoraDeImpostoDeRenda
             {
                 imposto = salario * 0.225;  
             }
+            else if(salario <= 50000)
+            {
+                imposto = salario * 0.359;
+            }
             else
             {
-                imposto = salario * 0.275;  
+                imposto = salario * 0.359;
             }
 
             Console.WriteLine("Imposto a pagar: R$" + imposto);
