@@ -6,5 +6,10 @@
         {
             return primeiroValor + segundoValor;
         }
+
+        public int Subtrair(int primeiroNumero, int segundoNumero) 
+        {
+            return primeiroNumero - segundoNumero;
+        }
     }
 }
