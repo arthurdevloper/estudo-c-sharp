@@ -38,6 +38,7 @@ namespace CalculadoraDeImpostoDeRenda
 
             Console.WriteLine("Imposto a pagar: R$" + imposto);
             Console.WriteLine("Salário líquido: R$" + (salario - imposto));
+            Console.WriteLine("Hello World");
         }
     }
 }
